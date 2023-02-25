@@ -6,7 +6,7 @@ API with Deno and OAK.
 
 * Deno 1.31.1
 * Typescript 4.9.4
-* Oak
+* Oak v11.1.0
 
 ## Install
 
