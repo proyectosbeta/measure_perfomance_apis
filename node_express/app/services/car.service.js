@@ -1,11 +1,11 @@
 const data = require("../../data/cars.json");
 
-async function getCarsService() {
+async function fetchCars() {
   return {
     data,
   };
 }
 
 module.exports = {
-  getCarsService,
+  fetchCars,
 };
