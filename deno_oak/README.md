@@ -20,3 +20,17 @@ deno run index.ts
 ```bash
 deno run --allow-net --allow-env --allow-read server.ts
 ```
+
+## Use API
+
+### GET ALL
+
+```bash
+localhost:3000/api/v1/cars
+```
+
+### GET
+
+```bash
+localhost:3000/api/v1/cars/cptB1C1NSL
+```
