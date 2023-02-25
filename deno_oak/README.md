@@ -1,7 +1,6 @@
-# Deno_oak
+# Deno Oak
 
 API with Deno and OAK.
-Data cars: https://www.back4app.com
 
 ## Tecnologies
 
