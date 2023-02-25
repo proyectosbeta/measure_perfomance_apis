@@ -1,12 +1,15 @@
-import express from "express";
+const { APP_PORT } = require("./app/configs/general.config.js");
+const app = require("./app/app.js");
 
-const app = express();
-const PORT = 3000;
+async function startServer() {
+  app.listen(APP_PORT, (err) => {
+    if (err) {
+      console.log(err);
+      return;
+    }
+    console.log(`Server running on port ${APP_PORT}`);
+  });
+}
 
-app.get("/", (req, res) => {
-  return res.send("Received a GET HTTP method");
-});
-
-app.listen(PORT, () =>
-  console.log(`Server running on port ${PORT}`)
-);
+// Start server.
+startServer();
